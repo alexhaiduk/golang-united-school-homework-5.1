@@ -17,7 +17,7 @@ func (s Square) End() Point {
 }
 
 func (s Square) Area() uint {
-	return a * a
+	return s.a * s.a
 }
 
 func (s Square) Perimeter() uint {
